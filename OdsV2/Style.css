@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    background-color: #FAF9F6;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b8001f;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 80px;
+    transition: 1s ease;
+    flex: 0 0 auto;
+  }
+  
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+  
+  .navegar {
+    background-color: #b8001f;
+  }
+  
+  .navegar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+  }
+  
+  .navegar {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .navegar ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .navegar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    background-color: #b8001f;
+  }
+  
+  .navegar ul li a:hover {
+    background-color: rgba(255, 0, 0, 0.3);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .parallax-img {
+    width: 100%; /* Ajustado para 100% de largura */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .espaço {
+    padding: 40px 20px; /* Reduzido o padding entre seções */
+    min-height: 100vh;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .espaço .parallax-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    z-index: -1;
+  }
+  
+  .espaço:nth-child(odd) .parallax-img {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  
+  .espaço:nth-child(even) .parallax-img {
+    transform: translate(-50%, -50%) scale(1.0);
+  }
+  
+  .caixa {
+    border: 2px solid #b8001f;
+    background-color: #f4f1ea;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caixa p {
+    font-size: 18px;
+    color: #171616;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #b8001f;
+    margin-bottom: 20px;
+  }
+  
+  #fotinha{
+    margin-top: 90px;
+  }
+  #bolsa{
+    margin-top: 90px;
+
+  }

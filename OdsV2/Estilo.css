@@ -1,0 +1,65 @@
+
+.Doar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/817298632/pt/foto/favelas-in-the-center-of-rio.jpg?s=612x612&w=0&k=20&c=o_0gocLjncMeyh6Y2ioXhf891kJl_zMZEgBprgdmrn0=);
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgba(203, 8, 8, 0.844);
+    box-shadow: #0000 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover {
+    letter-spacing: 4px;
+    background-color: rgb(202, 5, 5);
+    color: black;
+    box-shadow: rgb(202, 5, 5) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 2px;
+    background-color: rgb(202, 5, 5);
+    color: black;
+    box-shadow: none;
+    transform: translateY(5px);
+    transition: 100ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe {
+    margin-left: 20px; 
+}
+
+button {
+    margin-left: 50px;
+}
